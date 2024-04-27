@@ -162,7 +162,7 @@ export default class ViewTransformer extends React.Component {
 
     measureLayout () {
         let handle = ReactNative.findNodeHandle(this.refs['innerViewRef']);
-        NativeModules.UIManager.measure(handle, (x, y, width, height, pageX, pageY) => {
+        NativeModules.UIManager?.measure(handle, (x, y, width, height, pageX, pageY) => {
             if (typeof pageX === 'number' && typeof pageY === 'number') { // avoid undefined values on Android devices
                 if (this.state.pageX !== pageX || this.state.pageY !== pageY) {
                     this.setState({ pageX: pageX, pageY: pageY });

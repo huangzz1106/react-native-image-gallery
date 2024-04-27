@@ -1,3 +1,14 @@
+
+## v2.1.5-0.0.1
+
+1.修改源库依赖
+2.添加harmonyOS目录
+
+react-native-openharmony: 0.72.20
+DevEco Studio: 5.0.3.200
+SDK: HarmonyOS NEXT Developer Beta1
+ROM: 3.0.0.18
+
 ## v2.0.0
 
 This is the first major update since we've taken over this project. It includes numerous changes, breaking changes, and perfs improvements.
