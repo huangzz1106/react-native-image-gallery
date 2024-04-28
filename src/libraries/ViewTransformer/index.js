@@ -171,13 +171,13 @@ export default class ViewTransformer extends React.Component {
         });
     }
 
-    onResponderGrant (evt, gestureState) {
+    onResponderGrant = (evt, gestureState) => {
         this.props.onTransformStart && this.props.onTransformStart();
         this.setState({responderGranted: true});
         this.measureLayout();
     }
 
-    onResponderMove (evt, gestureState) {
+    onResponderMove = (evt, gestureState)=> {
         this.cancelAnimation();
 
         let dx = gestureState.moveX - gestureState.previousMoveX;
@@ -220,7 +220,7 @@ export default class ViewTransformer extends React.Component {
         return true;
     }
 
-    onResponderRelease (evt, gestureState) {
+    onResponderRelease = (evt, gestureState)=> {
         let handled = this.props.onTransformGestureReleased && this.props.onTransformGestureReleased({
             scale: this.state.scale,
             translateX: this.state.translateX,
