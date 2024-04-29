@@ -1,3 +1,15 @@
+
+## v2.1.5-0.0.1
+
+1.将ViewPropTypes接口替换为PropTypes
+2.判断UIManager是否存在measure
+3.修改ViewTransformer普通函数改为箭头函数，改变this的指向问题
+
+react-native-openharmony: 0.72.20
+DevEco Studio: 5.0.3.200
+SDK: HarmonyOS NEXT Developer Beta1
+ROM: 3.0.0.18
+
 ## v2.0.0
 
 This is the first major update since we've taken over this project. It includes numerous changes, breaking changes, and perfs improvements.

@@ -1,10 +1,13 @@
 {
-  "name": "react-native-image-gallery",
-  "version": "2.1.5",
+  "name": "@react-native-oh-tpl/react-native-image-gallery",
+  "version": "2.1.5-0.0.1",
   "description": "Pure JavaScript image gallery component for iOS and Android",
-  "main": "src/Gallery.js",
+  "main": "src/Gallery",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "harmony": {
+    "alias": "react-native-image-gallery"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,8 @@
   "dependencies": {
     "prop-types": "^15.6.0",
     "react-mixin": "^3.0.5",
-    "react-timer-mixin": "^0.13.3"
+    "react-timer-mixin": "^0.13.3",
+    "react-native-image-gallery": "^2.1.5"
   },
   "peerDependencies": {
     "react": "*",

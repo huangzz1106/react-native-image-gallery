@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react';
 import {
     View,
     FlatList,
-    ViewPropTypes,
     InteractionManager,
     Dimensions
 } from 'react-native';
@@ -21,7 +20,7 @@ export default class ViewPager extends PureComponent {
         ...View.propTypes,
         initialPage: PropTypes.number,
         pageMargin: PropTypes.number,
-        scrollViewStyle: ViewPropTypes ? ViewPropTypes.style : View.propTypes.style,
+        scrollViewStyle: PropTypes ? PropTypes.object : View.propTypes.style,
         scrollEnabled: PropTypes.bool,
         renderPage: PropTypes.func,
         pageDataArray: PropTypes.array,
