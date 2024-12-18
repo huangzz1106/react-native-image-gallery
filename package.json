@@ -1,7 +1,7 @@
 {
   "name": "@react-native-oh-tpl/react-native-image-gallery",
   "version": "2.1.5-0.0.1",
-  "description": "Pure JavaScript image gallery component for iOS and Android",
+  "description": "Pure JavaScript image gallery component for iOS、harmony and Android",
   "main": "src/Gallery",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

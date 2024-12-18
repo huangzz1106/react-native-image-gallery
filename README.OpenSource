@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-image-gallery",
+        "License": "ISC License",
+        "License File": "https://github.com/meliorence/react-native-image-gallery/blob/master/package.json#L14",
+        "Version Number": "2.1.5",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/meliorence/react-native-image-gallery",
+        "Description": "Pure JavaScript image gallery component for iOS、harmony and Android"
+    }
+]
